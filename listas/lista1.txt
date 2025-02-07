@@ -1,0 +1,58 @@
+Prove os resultados nas questões de 1 a 10 a seguir:
+
+1) Somatório ,com v pertencente V , de grau(v) = 2|E|.
+2) Um grafo G(V,E) é bipartido se e somente se todo ciclo de G possuir comprimento par.
+3) Seja G(V,E) um grafo. As possíveis afirmativas são equivalentes:
+(I) G é uma árvore.
+(II) G é conexo e |E| é mínimo.
+(III) G é conexo e |E| = |V| - 1.
+(IV) G é acíclico e |E| = |V| - 1.
+4) O centro de uma árvore T possui um ou dois vértices.
+5) Seja G um grafo planar. Então n + f = m + 2.
+6) Seja G um grafo planar. Então m <= 3n - 6.
+7) O K5 não é um grafo planar e o K3,3 também não é planar.
+8) Todo dígrafo acíclico possui (pelo menos) uma fonte e um sumidouro.
+9) Um grafo é bicolorível se e somente se ele é bipartido.
+10) Se G(V,E) é K-crítico, então grau(v) >= k - 1, para todo v pertencente a V.
+11) Seja G um grafo simples com 15 arestas. Se o complemento de G tem 13 arestas, qual é a cardinalidade de V(G) (conjunto de vértices de G)?
+12) Demonstre que em uma festa com 6 pessoas existem 3 pessoas que se conhecem mutuamente ou existem 3 que não se conhecem mutuamente.
+13) Demonstre que todo grafo com dois ou mais vértices tem pelo menos dois vértices de mesmo grau.
+14) Demonstre que se G = (V, E) é um grafo conexo com grau mínimo maior que zero e |V| > |E|, então G tem pelo menos dois vértices de grau 1.
+15) O grafo linha, L(G), de um grafo G é obtido tomando-se para V(L(G)) o conjunto das arestas de G e dois vértices em L(G) são adjacentes se as arestas correspondentes a esses vértices são incidentes em G.
+a) Desenhe o grafo linha do touro e de K_4 (touro: V = {1,2,3,4,5}, E = {(1,2), (1,3), (2,3), (1,4), (2,5)})
+b) Determine o grafo linha de P_n e de C_n.
+c) Determine |V(L(G))| e |E(L(G))|.
+16) Exiba uma família de grafos G tais que L(G) é isomorfo a G.
+17) Prove que L(K_4) é isomorfo ao K_2,2,2.
+18) Seja P um caminho com extremos u e v e Q um caminho com extremos v e w. Mostre que se a interseção de V(P) com V(Q) é igual a {v}, então P união Q é um caminho.
+19) Mostre que as afirmações a seguir são falsas ou mostre que são verdadeiras.
+a) Todo grafo 2-regular é um ciclo.
+b) Cada componente conexo de um grafo 2-regular é um ciclo.
+c) Se G é conexo, então seu complemento é desconexo.
+d) Se G é desconexo, então seu complemento é conexo.
+20) Suponha que um grafo gerador H de um grafo G é conexo. Mostre que G é conexo.
+21) Mostre que existe um caminho de u a v em G se e somente se existe um caminho induzido de u a v em G.
+22) Prove que todo grafo conexo possui um vértice cuja remoção não o desconecta.
+23) Prove ou dê contra-exemplo:
+a) Se K é uma clique maximal em um grafo G, então K é uma clique máxima em G.
+b) Se K é uma clique máxima em um grafo G, então K é uma clique maximal em G.
+24) Demonstre que a clique máxima em um grafo G tem cardinalidade menor ou igual que o grau máximo de G mais um, para todo grafo simples G.
+25)Encontre um conjunto independente máximo em C_n e um em P_n.
+26) Em todo grafo G, dois caminhos de comprimento máximo possuem, pelo menos, um vértice em comum. Provar ou dar contra-exemplo, para os seguintes casos:
+
+(i) G é desconexo.
+(ii) G é conexo.
+27) Construir o menor grafo sem triângulos, cujo número cromático seja 3.
+28) Construir um grafo sem triângulos, cujo número cromático seja 4.
+29) Um grafo G(V,E) é maximal k-colorível quando G for k-colorível e para todo par de vértices v, w pertencentes a V, o grafo G+(v,w) não é k-colorível. Mostrar que G é maximal 2-colorível se e somente se G for bipartite completo.
+30) Modificar o algoritmo 3.1 (do livro), de modo a construir um estrutura de adjacências para um grafo não direcionado.
+31) Descrever um algoritmo de ordenação por caixas, para realizar uma ordenação alfabética. Se existirem n itens a serem ordenados, cada qual com m caracteres alfabéticos, qual será a complexidade do processo?
+32) Apresentar um exemplo de um grafo G, com número cromático X e tal que o algoritmo 3.2 de coloração aproximada atribua aos vértices de G um total de 2X ou mais cores.
+33) Os algoritmos 3.2 e 3.3 produzem colorações rigorosamente iguais. Provar ou dar contra-exemplo.
+34) Um dígrafo admite ordenação topológica se e somente se for acíclico. Provar ou dar contra-exemplo.
+35) Seja T o número de ordenações topológicas distintas de um dígrafo D(V,E). Quais são os valores mínimo e máximo de T?
+36)Desenvolver algoritmo iterativo de Busca em Profundidade
+37)Provar o teorema 4.1 do livro
+38)Provar o teorema 4.2 do livro
+39)Um grafo G(V, E) é uma árvore se e somente se uma busca em profundidade aplicada a G não produzir arestas de retorno. Provar ou dar contra-exemplo.
+
